@@ -1,0 +1,22 @@
+.custom-card {
+  -webkit-box-shadow: -2px 0px 26px -1px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -2px 0px 26px -1px rgba(0, 0, 0, 0.44);
+  box-shadow: -2px 0px 26px -1px rgba(0, 0, 0, 0.44);
+  transform: scale(.9);
+  transition: all .5s;
+  &:hover {
+    transform: scale(1);
+  }
+  .card-title {
+    letter-spacing: .1rem;
+    font-size: 18px;
+  }
+  .card-text {
+    direction: rtl;
+    text-align: right;
+  }
+  .text-muted {
+    direction: rtl;
+    text-align: right;
+  }
+}
