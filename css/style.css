@@ -7213,6 +7213,39 @@ body {
         font-size: 14px;
         border: 1px solid #caf0f8; } }
 
+#accordion-section {
+  margin-top: 100px !important; }
+  #accordion-section .btn {
+    box-shadow: none !important;
+    outline: 0; }
+  #accordion-section a:link,
+  #accordion-section a:visited {
+    color: #343a40; }
+  #accordion-section a:hover,
+  #accordion-section a:focus {
+    color: #0077b6; }
+  #accordion-section .list-group-item {
+    text-align: right; }
+    #accordion-section .list-group-item a {
+      text-decoration: none; }
+  #accordion-section .list-group-item span {
+    border: solid #222;
+    border-width: 0 1px 1px 0;
+    display: inline;
+    cursor: pointer;
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    margin-top: 10px; }
+  #accordion-section .list-group-item a.btn.collapsed span {
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    transition: .3s transform ease-in-out; }
+  #accordion-section .list-group-item a.btn span {
+    transform: rotate(-140deg);
+    -webkit-transform: rotate(-140deg);
+    transition: .3s transform ease-in-out; }
+
 .my-navbar {
   box-shadow: 0 10px 30px rgba(216, 216, 216, 0.45);
   position: fixed;
