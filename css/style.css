@@ -7259,6 +7259,19 @@ body {
     padding: 6px 8px;
     border-radius: 10px; }
 
+#about-section {
+  margin-top: 100px !important; }
+
+#profile-cards-section {
+  margin-top: 100px; }
+  #profile-cards-section .edit-div {
+    direction: rtl;
+    text-align: center; }
+
+#profile-login {
+  margin-top: 150px;
+  text-align: center; }
+
 .my-navbar {
   box-shadow: 0 10px 30px rgba(216, 216, 216, 0.45);
   position: fixed;
@@ -7290,6 +7303,24 @@ body {
   .nav-btn:hover {
     background-color: #0077b6;
     border: none; }
+
+@media (max-width: 767.98px) {
+  .nav-btn-add {
+    display: none; } }
+
+.add-btn {
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  background-color: #00b4db;
+  color: #fff;
+  display: none; }
+  @media (max-width: 767.98px) {
+    .add-btn {
+      display: block; } }
 
 .custom-card {
   -webkit-box-shadow: -2px 0px 26px -1px rgba(0, 0, 0, 0.44);

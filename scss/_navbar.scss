@@ -6,6 +6,7 @@
 
 .navbar-brand {
   font-weight: bold;
+
   img {
     width: 42px;
   }
@@ -37,5 +38,28 @@
   &:hover {
     background-color: $color-primary-dark;
     border: none;
+  }
+}
+
+.nav-btn-add {
+
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.add-btn {
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  background-color: $color-primary;
+  color: $white;
+  display: none;
+
+  @include media-breakpoint-down(sm) {
+    display: block;
   }
 }

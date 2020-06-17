@@ -24,11 +24,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item nav-active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">صفحه اصلی<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile.html">آگهی های من</a>
+                <li class="nav-item nav-active">
+                    <a class="nav-link" href="#">آگهی های من</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">تماس با ما</a>
@@ -47,17 +47,27 @@
 </nav>
 <!--END NAVBAR-->
 
-<!--START HEADER-->
-<header id="header">
-    <h2 class="header-text">خونه مورد نظرتو پیدا کن</h2>
-    <a href="#cards-section" class="fas fa-arrow-down fa-2x header-icon"></a>
-</header>
-<!--END HEADER-->
-
+<section id="profile-login">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                <p>
+                    برای مشاهده و مدیریت آگهی ها وارد خساب کاربری خود شوید.
+                </p>
+                <a href="login.html" class="btn btn-outline-info">ورود</a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--START CARDS SECTION-->
-<section id="cards-section">
+<section id="profile-cards-section">
     <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="#" class="btn nav-btn">تغییر رمز عبور</a>
+            </div>
+        </div>
         <div class="row card-columns my-5">
             <div class="col-md-4">
                 <div class="card custom-card">
@@ -71,6 +81,10 @@
                         <footer class="blockquote-footer">10 دقیقه پیش در بالاشهر</footer>
                         <a href="#" class="stretched-link"></a>
                     </div>
+                </div>
+                <div class="edit-div">
+                    <a href="#" class="btn btn-danger">حذف آگهی</a>
+                    <a href="#" class="btn btn-info">ویرایش</a>
                 </div>
             </div>
             <div class="col-md-4">
