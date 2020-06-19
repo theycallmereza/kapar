@@ -7272,6 +7272,15 @@ body {
   margin-top: 150px;
   text-align: center; }
 
+#detail-section {
+  margin-top: 100px;
+  direction: ltr; }
+  #detail-section .ad-detail {
+    direction: rtl; }
+  #detail-section img {
+    width: 90%;
+    max-height: 300px; }
+
 .my-navbar {
   box-shadow: 0 10px 30px rgba(216, 216, 216, 0.45);
   position: fixed;
